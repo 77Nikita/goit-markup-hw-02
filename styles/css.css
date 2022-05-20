@@ -1,12 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+}
 .header {
-    width: 1600px; ;
-    height: 80;
-    padding: 25px 1240px 25px 215px;
+    
+    padding: 25px 215px 25px 215px;
     background-color: white;
 }
 .logo {
     padding: 10px 25px auto 25px;
     margin-right: 40px;
+}
+.hero{
+    margin-bottom: 50px;
 }
 .navi-link{
     color: #212121;
@@ -20,13 +26,104 @@
 }
 
 .button {
-    position: absolute;
+    margin-left: 200px;
+    position: center;
     width: 200px;
-        height: 50px;
-        left: 700px;
-        top: 430px;
-    
-        background: #2196F3;
-        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-        border-radius: 4px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+    background-color: #2196F3;
 }
+.cont {
+    margin: auto;
+}
+.hero-conteiner {
+    background-image: url(../images/Slider.png);
+   
+    padding: 280px 0 280px 452px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+.title {
+font-family: 'Roboto';
+width: 696px;
+height: 120px;
+font-size: 44px;
+color: #FFFFFF;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+ 
+
+.list{
+    display: flex;
+    list-style: none;
+}
+.conteinerr{
+    width: 1170px;
+    margin-left: 215px;
+    margin-bottom: 90px;
+}
+.vnimanie{
+        position: absolute;
+        width: 270px;
+        height: 16px;
+        left: 215px;
+        top: 774px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+    
+        color: #212121;
+}
+.text{
+        margin-right: 30px;
+        width: 270px;
+        height: 75px;
+        left: 215px;
+        top: 800px;
+    
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .zaglavie{
+        
+        width: 376px;
+        height: 42px;
+        margin-bottom: 50px;
+        padding: 0 397px 50px 397px;
+    }
+
+    .conteinerrr{
+        width: 1170px;
+        margin-left: 215px;
+        margin-bottom: 94px;
+    }
+    .spisfoto {
+        margin-right: 30px;
+    }
+    .conteinerrrr{
+        width: 1170px;
+        margin-left: 215px;
+        height: 368px;
+        background-color: #F5F4FA;
+    }
+    .fotolic{
+        margin-right: 30px;
+    }
+ .dopcon{
+     padding: 94px 215px 94px 215px;;
+ }
+
+    
