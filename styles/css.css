@@ -3,14 +3,17 @@
     padding: 0;
 }
 .header {
-    
+    display: flex;
     padding: 25px 215px 25px 215px;
     background-color: white;
+    
 }
 .logo {
     padding: 10px 25px auto 25px;
     margin-right: 40px;
 }
+
+
 .hero{
     margin-bottom: 50px;
 }
@@ -23,6 +26,10 @@
 }
 .navi-link:hover {
     color: #2196F3;
+}
+
+.contacts {
+    margin-left: 300px;
 }
 
 .button {
@@ -79,7 +86,7 @@ margin-bottom: 20px;
         font-weight: 700;
         font-size: 14px;
         line-height: 16px;
-        letter-spacing: 0.03em;
+        
         text-transform: uppercase;
     
         color: #212121;
@@ -135,3 +142,24 @@ margin-bottom: 20px;
     .fio {
         text-align: center;
     }
+
+    .footer {
+        background-color:black;
+        font-size: 22px;
+        
+    }
+
+  .footadress {
+      color: #FFFFFF;
+  }
+  
+  
+  .foot {
+      
+      margin-left: 100px;
+    color: #F5F4FA;
+  }
+  .ull {
+    
+      margin-left: 100px;
+  }
