@@ -164,3 +164,31 @@ margin-bottom: 20px;
     
       margin-left: 100px;
   }
+
+  .description {
+      padding: 139px 0 120px 55px;
+  }
+  .conteiner {
+      display: flex;
+      width: 1140px;
+      margin: 0 auto;
+  }
+  .discription-img {
+      margin-right: 26px;
+}
+
+.section-title {
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 42px;
+        line-height: 49px;
+        color: #303030;
+        margin-bottom: 20px;
+}
+.img-conteiner {
+    width: 570px;
+    margin-right: 64px;
+}
+.content {
+    width: 500px;
+}
