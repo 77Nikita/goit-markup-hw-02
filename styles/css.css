@@ -5,8 +5,8 @@
 }
 .header {
     display: flex;
-    padding: 25px 215px 25px 215px;
-    background-color: white;
+    padding: 48px 62px 48px 188px;
+    background-color: #FFFFFF;
     
 }
 .logo {
@@ -191,4 +191,22 @@ margin-bottom: 20px;
 }
 .content {
     width: 500px;
+}
+
+
+.log {
+    width: 500px;
+    background-color: red;
+}
+.tex {
+    margin-left: 200px;
+    width: 500px;
+    background-color: #2196F3;
+}
+
+
+.conteiner-con {
+    display: flex;
+    padding: 48px 62px 48px 188px;
+    background-color:bisque;
 }
