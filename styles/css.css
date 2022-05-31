@@ -210,3 +210,12 @@ margin-bottom: 20px;
     padding: 48px 62px 48px 188px;
     background-color:bisque;
 }
+.text {
+    margin-bottom: 5px;
+}
+.te {
+    margin-bottom: 10px;
+}
+.actions {
+    text-align: center;
+}
