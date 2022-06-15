@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--<script>
+        let proba=prompt("Введите данные в поле ниже", "Ввести цифры от 1 до 10 в это поле.");
+        alert(`Значение которое вы ввели в поле: ${proba}`);
+    </script>-->
+    <script>
+        alert("Хочу расчитать объем целиндра с помощью Радиуса, Высоты и числа `PI`");
+        let summa;
+
+        let inputrad=prompt("Ввести радиус");
+        let inputheit=prompt("Ввести высоту");
+
+
+
+        let radius=Number(inputrad);
+        let heit=Number(inputheit);
+
+        summa=Math.PI * radius * radius * heit;
+        
+        alert(`Расчитали объем цилиндра с помощью радиуса ${radius} 
+        умноженного на высоту ${heit} и получили результат ${summa}`);
+
+    </script>
+</body>
+</html>
